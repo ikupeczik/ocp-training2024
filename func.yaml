@@ -1,0 +1,7 @@
+FROM nginx:latest
+
+COPY html /usr/share/nginx/html
+
+EXPOSE 80/tcp 80/udp
+
+#docker build -t mypage .
